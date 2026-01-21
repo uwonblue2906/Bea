@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  margin: 5px;
+}
+
+h2,
+h4 {
+  color: #d36c9f;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social a {
+  text-decoration: none;
+  background-color: #f8bfd4;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.social a:hover {
+  background-color: #f6a5c0;
+}
+
+ul li {
+  display: inline;
+  margin-left: 6px;
+  font-size: 12px;
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #f6a5c0;
+  font-size: small;
+  padding: 10px;
+  width: 100%;
+  position: static;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+  display: flex;
+}
+
+#content {
+  width: 75%;
+}
+
+aside {
+  width: 25%;
+  padding: 10px;
+  margin: 20px;
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.foto {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.jumbroton {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #f8bfd4;
+  text-align: center;
+  color: white;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.kotak {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #f6a5c0;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  aside,
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+}

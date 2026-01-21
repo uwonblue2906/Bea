@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+
+    <title>Beabadoobee</title>
+    <link rel="icon" href="images/bea-logo.png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body> 
+    <header>
+        <div>
+            <div class="jumbroton"> 
+                <br>
+                <h1>Beabadoobee</h1>
+            </div>
+
+             <div style="text-align: center; font-size: medium; padding: 10px;" class="jumbroton">
+                <p>Penyanyi dan penulis lagu indie asal Inggris dengan gaya bedroom pop dan alternative rock.</p>  
+             </div>
+             <nav id="navbar">
+                <ul>
+                    <li><a href="#profil">Profil</a></li>
+                    <li><a href="#karier">Karier</a></li>
+                    <li><a href="#karya">Karya</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        
+        <main>
+            <aside class="profile kotak">
+                <h2 style="text-align: center;">Beabadoobee</h2>
+                <figure>
+                    <img src="https://i.pinimg.com/736x/3d/c5/22/3dc5223d2d927e524eb015ef874ca948.jpg" alt="beabadoobee">
+                    <figcaption style="text-align: center;">Musisi Indie</figcaption>
+                </figure>
+                <h2>Social Media</h2>
+<div class="social">
+    <a href="https://open.spotify.com/artist/35l9BRT7MXmM8bv2WDQiyB" target="_blank">Spotify</a>
+    <a href="https://www.instagram.com/radvxz/" target="_blank">Instagram</a>
+    <a href="https://www.youtube.com/@beabadoobee" target="_blank">YouTube</a>
+</div>
+
+
+
+            </aside>
+            
+            <section id="profil" class="kotak">
+            <section class="shadow">
+                    <h2 id="profil">Profil</h2>
+                    <img src="https://i.pinimg.com/736x/ab/44/82/ab448275e4b4936550b779f1330ca4b9.jpg" alt="beabadoobee" class="foto">
+    
+            <p style="text-align: justify;">
+                Beabadoobee memiliki nama asli Beatrice Laus. Ia lahir pada 3 Juni 2000 di Iloilo City, Filipina, dan kemudian pindah ke London, Inggris. Ia dikenal sebagai musisi indie yang memulai kariernya dengan mengunggah lagu-lagu sederhana menggunakan gitar akustik di internet, yang kemudian menarik perhatian banyak pendengar.
+            </p>   
+            </section>
+                
+            <article id="karier" class="kotak">
+                    <h2 id="karier">Karier</h2>
+                    <img src="https://i.pinimg.com/736x/34/23/4e/34234e40c8ee8b1c674fa412adc39007.jpg" alt="Karier beabadoobee" class="foto">
+
+                <p style="text-align: justify;">
+                    Karier beabadoobee mulai dikenal luas setelah lagu “Coffee” viral di media sosial. Ia kemudian menandatangani kontrak dengan label Dirty Hit, yang juga menaungi band The 1975. Sejak saat itu, beabadoobee merilis berbagai EP dan album dengan ciri khas lirik yang jujur serta nuansa musik indie rock dan pop alternatif.
+                </p>
+             </article>
+           
+            <article id="karya" class="kotak">
+                    <h2 id="karya">Karya</h2>
+                    <img src="https://i.pinimg.com/736x/e6/a3/76/e6a37655f8dfbc4c148e203e8a7a5bd4.jpg" alt="Album beabadoobee" class="foto">
+                    <p>Beberapa karya populer beabadoobee:</p>
+                <ol>
+                    <li>Coffee</li>
+                    <li>She Plays Bass</li>
+                    <li>Care</li>
+                    <li>Glue Song</li>
+                    <li>Talk</li>
+                    <li>Perfect Pair</li>
+                    <li>See You Soon</li>
+                </ol>         
+            </article>
+
+        </main>
+
+            <footer>
+                &copy; 2026, Beabadoobee. All Rights Reserved
+            </footer>
+</body>
+
+<script>
+    window.onscroll = function() {
+        stickyNav()
+    };
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function stickyNav() {
+        if (window.pageYOffset >= sticky) {
+            navbar.style.position = "fixed";
+            navbar.style.top = "0";
+        } else {
+            navbar.style.position = "static";
+        }
+    }
+</script>
+</html>
